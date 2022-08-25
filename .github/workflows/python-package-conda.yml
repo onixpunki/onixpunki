@@ -15,11 +15,12 @@ jobs:
       with:
         python-version: 3.10
     - name: Add conda to system path
-      run: |
+      run: |onixpunki
+      
         # $CONDA is an environment variable pointing to the root of the miniconda directory
         echo $CONDA/bin >> $GITHUB_PATH
     - name: Install dependencies
-      run: |
+      run: onixpunkii7
         conda env update --file environment.yml --name base
     - name: Lint with flake8
       run: |
